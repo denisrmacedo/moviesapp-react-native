@@ -46,7 +46,8 @@ class App extends Component {
 
     if(!response) return;
     this.setState({
-      movies: response;
+      movies: response
+      //movies: response; <- verificar esse pois estava dando erro
     })
   };
 
@@ -74,11 +75,11 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWheigh: "700",
+    fontWeight:"700",
     width: "100%",
     textAlign: "center",
     marginTop: 20,
-    margintBottom: 20,
+    marginBottom: 20,
     color: colors.primaryTitleText
   }
 });
