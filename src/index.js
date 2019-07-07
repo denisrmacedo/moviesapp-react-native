@@ -64,24 +64,3 @@ class App extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: "100%",
-    backgroundColor: "red",
-    alignItems: "center",
-    justifyContent: "flex-start"
-  },
-  title: {
-    fontSize: 20,
-    fontWeight:"700",
-    width: "100%",
-    textAlign: "center",
-    marginTop: 20,
-    marginBottom: 20,
-    color: colors.primaryTitleText
-  }
-});
-
-export default App;
