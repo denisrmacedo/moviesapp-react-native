@@ -1,5 +1,8 @@
 const colors = {
-  primaryTitleText: "#FF00FF"
+  primaryTitleText: "#013ADF",
+  white: "white",
+  black: "black",
+  gray: "gray"
 };
 
 export default colors;
