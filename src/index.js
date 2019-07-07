@@ -111,10 +111,10 @@ const styles = StyleSheet.create({
   },
   subTitle: {
     fontSize: 20,
-    fontWeight:"900",
+    fontWeight:"700",
     width: "100%",
     textAlign: "center",
-    marginTop: 30,
+    marginTop: 20,
     marginBottom: 20,
     color: colors.primaryTitleText
   },
