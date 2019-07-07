@@ -4,7 +4,6 @@ import App from "./src";
 
 if (__DEV__){
   activateKeepAwake();
-
 }
 
 registerRootComponent(App);
